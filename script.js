@@ -21,17 +21,8 @@ const printOperations = (numberOne, numberTwo) => {
   alert(`A divisão dos dois números é: ${divisionResult}`)
   alert(`A resto da divisão dos dois números é: ${remainderResult}`)
 
-  if (evenNumber) {
-    alert("A soma dos dois números é par!")
-  } else {
-    alert("A soma dos dois números é impar!")
-  }
-
-  if (equalNumbers) {
-    alert("Os números inseridos são iguais")
-  } else {
-    alert("Os números inseridos são diferentes")
-  }
+  evenNumber ? alert("A soma dos dois números é par!") : alert("A soma dos dois números é impar!")
+  equalNumbers ? alert("Os números inseridos são iguais") : alert("Os números inseridos são diferentes")
 }
 
 printOperations(numberOne, numberTwo)
